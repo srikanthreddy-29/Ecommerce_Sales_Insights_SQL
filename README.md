@@ -269,7 +269,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
    Output .csv files are saved in:
 
    business_problems_outcomes/ → via pgAdmin
-   outputs/csvs/ → via Python script
+   outputs/csvs/ → via Python script.
 
 
 
