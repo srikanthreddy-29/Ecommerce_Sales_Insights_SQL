@@ -50,8 +50,9 @@ Ecommerce_Sales_Insights_SQL/
 ├── diagrams/
 │   └── ERD_E-Commerce.png
 │
-└── README.md```
-</details> 
+└── README.md
+
+</details> ```
 
 
 
