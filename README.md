@@ -16,41 +16,42 @@ This project centers around analyzing a comprehensive e-commerce dataset using *
 ## 📁 Folder Structure
 
 <details>
-<summary>Click to expand full project structure</summary>
+<summary>📁 Click to view full folder structure</summary>
 
 ```text
 Ecommerce_Sales_Insights_SQL/
 │
 ├── datasets/
-│   ├── Raw_data/                         # Contains original raw CSV files
-│   └── cleaned_data/                     # Cleaned and preprocessed data used for analysis
+│   ├── Raw_data/                # Contains original raw CSV files
+│   └── cleaned_data/           # Cleaned and preprocessed data
 │
 ├── notebooks/
-│   ├── E-Commerce_data_cleaning.ipynb    # Data cleaning using pandas
-│   ├── EDA_analysis_visualizations.ipynb # Basic EDA Functionality and EDA graphs using seaborn & matplotlib
-│   └── run_sql_queries_and_export_results.ipynb # Run SQL queries & export results
+│   ├── E-Commerce_data_cleaning.ipynb          # Data cleaning notebook
+│   ├── EDA_analysis_visualizations.ipynb       # EDA using seaborn/matplotlib
+│   └── run_sql_queries_and_export_results.ipynb # Executes SQL & saves results
 │
 ├── SQL_Database/
-│   ├── Defining_the_Tables.sql           # PostgreSQL table schema
-│   └── load_cleaned_data.py              # Script to load data into PostgreSQL
+│   ├── Defining_the_Tables.sql      # PostgreSQL schema
+│   └── load_cleaned_data.py         # Script to load data to DB
 │
 ├── bussiness_queries_result/
 │   ├── query_01_top_sellers.sql
 │   ├── ...
-│   └── query_20_delivery_performance.sql # Finalized SQL queries
-│   ├── query_01_result_top_sellers.csv
+│   └── query_20_delivery_performance.sql
+│   ├── query_01_result_top_sellers.csv          # pgAdmin CSV outputs
 │   └── query_20_result_delivery_performance.csv
 │
 ├── outputs/
-│   ├── query_results/                    # Results exported via Python
+│   ├── query_results/                # Python-generated results
 │   │   ├── query_01_top_sellers_result.csv
 │   │   └── ...
-│   └── eda_missing_summary/              # Summary tables from EDA
+│   └── eda_missing_summary/         # Tabular summaries from EDA
 │
 ├── diagrams/
-│   └── ERD_E-Commerce.png                # Final ERD image
+│   └── ERD_E-Commerce.png
 │
-└── README.md                             # Project documentation
+└── README.md
+
 ---
 
 ## 🧭 Step-by-Step Process
