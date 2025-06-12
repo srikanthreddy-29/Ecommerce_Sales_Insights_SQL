@@ -257,7 +257,6 @@ Click on the links below to view the SQL queries and their corresponding outputs
 
 ### 🗃️ Load Data to PostgreSQL  
 Run the following Python script to load the cleaned data into your PostgreSQL database:  
-```bash
 python SQL_Database/load_cleaned_data.py
 
 🧮 Run KPIs
