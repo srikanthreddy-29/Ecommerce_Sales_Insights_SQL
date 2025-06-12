@@ -13,7 +13,7 @@ This project centers around analyzing a comprehensive e-commerce dataset using *
 - ✅ Create a comprehensive **Entity-Relationship Diagram (ERD)** to understand the data schema
 ---
 
-## 📁 Step 2: Folder Structure
+##  Folder Structure
 
 <details>
 <summary>Click to expand full project structure</summary>
@@ -27,7 +27,7 @@ Ecommerce_Sales_Insights_SQL/
 │
 ├── notebooks/
 │   ├── E-Commerce_data_cleaning.ipynb    # Data cleaning using pandas
-│   ├── EDA_analysis_visualizations.ipynb # EDA graphs using seaborn & matplotlib
+│   ├── EDA_analysis_visualizations.ipynb # Basic EDA Functionality and EDA graphs using seaborn & matplotlib
 │   └── run_sql_queries_and_export_results.ipynb # Run SQL queries & export results
 │
 ├── SQL_Database/
@@ -51,4 +51,6 @@ Ecommerce_Sales_Insights_SQL/
 │   └── ERD_E-Commerce.png                # Final ERD image
 │
 └── README.md                             # Project documentation
+---
+
 
