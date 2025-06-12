@@ -210,7 +210,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
 
 ### 🐍 Step 5: Running Queries with Python (`run_sql_queries_and_export_results.ipynb`)
 - Connected to PostgreSQL using SQLAlchemy.
-- Read each `.sql` query from the `bussiness_queries_result/` folder.
+- Read each `.sql` query from the `bussiness_queries_results/` folder.
 - Executed the queries and saved results as `.csv` into `outputs/query_results/`.
 - Ensured consistency between SQL-generated and Python-generated results.
 
@@ -255,21 +255,24 @@ Click on the links below to view the SQL queries and their corresponding outputs
 
 ## 🚀 Run It Yourself
 
-1. Load Data to PostgreSQL
-   Run : python SQL_Database/load_cleaned_data.py
+### 🗃️ Load Data to PostgreSQL  
+Run the following Python script to load the cleaned data into your PostgreSQL database:  
+```bash
+python SQL_Database/load_cleaned_data.py
 
-2. Run KPIs
-   Use either:
+🧮 Run KPIs
+You can execute the business KPIs using either method below:
 
-   --SQL manually via pgAdmin
+🔍 SQL manually via pgAdmin
 
-   --Notebook: [run_sql_queries_and_export_results.ipynb](notebooks/run_sql_queries_and_export_results.ipynb)
+📝 Notebook: [run_sql_queries_and_export_results.ipynb](notebooks/run_sql_queries_and_export_results.ipynb)
 
-3. Check Results
-   Output .csv files are saved in:
+📁 Check Results
+Output .csv files will be saved in:
 
-   business_problems_outcomes/ → via pgAdmin
-   outputs/csvs/ → via Python script.
+📊 bussiness_queries_results/ → Results exported via pgAdmin
+
+🐍 outputs/query_results/ → Results exported via Python script
 
 ---
 
