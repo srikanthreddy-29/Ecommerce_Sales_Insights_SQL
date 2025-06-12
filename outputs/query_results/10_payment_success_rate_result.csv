@@ -1,0 +1,6 @@
+payment_type,total_payments,successful_payments,success_rate_percentage
+credit_card,76795,76795,100.0
+UPI,19784,19784,100.0
+voucher,5775,5769,99.9
+debit_card,1529,1529,100.0
+not_defined,3,0,0.0
