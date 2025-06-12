@@ -85,9 +85,9 @@ Each business problem was solved using SQL and results were exported both from p
 Click on the links below to view the SQL queries and their corresponding outputs:
 #### ✅ KPI 1: Top 10 Best-Selling Products  
 🎯 Goal: Determine which products generate the most revenue and are sold most frequently.    
-📄 [query_01_top_sellers.sql](bussiness_queries_result/query_01_top_sellers.sql)  
-📊 [query_01_result_top_sellers.csv](bussiness_queries_result/query_01_result_top_sellers.csv)  
-🐍 [query_01_top_sellers_result.csv](outputs/query_results/query_01_top_sellers_result.csv)
+📄 [query_01_top_sellers.sql](bussiness_queries_results/01_top_sellers.sql)  
+📊 [query_01_result_top_sellers.csv](bussiness_queries_results/01_result_top_sellers.csv)  
+🐍 [query_01_top_sellers_result.csv](outputs/query_results/01_top_sellers_result.csv)
 
 #### ✅ KPI 2: Revenue by Product Category  
 🎯 Goal: Understand which product categories are generating the most revenue.  
