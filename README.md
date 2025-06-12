@@ -13,7 +13,7 @@ This project centers around analyzing a comprehensive e-commerce dataset using *
 - ✅ Create a comprehensive **Entity-Relationship Diagram (ERD)** to understand the data schema
 ---
 
-##  Folder Structure
+## 📁 Folder Structure
 
 <details>
 <summary>Click to expand full project structure</summary>
