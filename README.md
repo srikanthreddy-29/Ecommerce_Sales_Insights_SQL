@@ -53,6 +53,13 @@ Ecommerce_Sales_Insights_SQL/
 └── README.md
 
 </details> ```
+---
+
+## 🧭 Step-by-Step Process
+
+### ✅ Step 1: Data Cleaning (`E-Commerce_data_cleaning.ipynb`)
+...
+
 
 
 
