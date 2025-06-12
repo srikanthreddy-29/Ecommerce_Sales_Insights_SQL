@@ -51,8 +51,8 @@ Ecommerce_Sales_Insights_SQL/
 │   └── ERD_E-Commerce.png
 │
 └── README.md
-
-</details> ```
+```
+</details> 
 ---
 
 ## 🧭 Step-by-Step Process
