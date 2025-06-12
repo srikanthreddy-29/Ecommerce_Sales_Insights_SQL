@@ -99,27 +99,32 @@ Click on the links below to view the SQL queries and their corresponding outputs
 🎯 Goal: Discover which customer locations generate the most revenue.  
 📄 SQL Query: [query_03_top_customer_cities_sales.sql](bussiness_queries_results/03_top_customer_cities_sales.sql)  
 📊 pgAdmin Result: [query_03_result_top_customer_cities_sales.csv](bussiness_queries_results/03_result_top_customer_cities_sales.csv)    
-🐍 Python Result: [query_03_result_top_customer_cities_sales.csv](outputs/query_results/03_top_customer_cities_sales_result.csv) 
+🐍 Python Result: [query_03_result_top_customer_cities_sales.csv](outputs/query_results/03_top_customer_cities_sales_result.csv)
+
 #### ✅ KPI 4: Monthly Sales Trend  
 🎯 Goal: Track total sales performance across months for trend analysis.  
 📄 SQL Query: [query_04_monthly_sales_trend.sql](bussiness_queries_results/04_monthly_sales_trend.sql)  
 📊 pgAdmin Result: [query_04_result_monthly_sales_trend.csv](bussiness_queries_results/04_result_monthly_sales_trend.csv)    
 🐍 Python Result: [query_04_result_monthly_sales_trend.csv](outputs/query_results/04_monthly_sales_trend_result.csv)
+
 #### ✅ KPI 5: Repeat Purchase Rate  
 🎯 Goal: Understand customer loyalty by checking how many customers placed more than one order.  
 📄 SQL Query: [query_05_repeat_purchase_rate.sql](bussiness_queries_results/05_repeat_purchase_rate.sql)  
 📊 pgAdmin Result: [query_05_result_repeat_purchase_rate.csv](bussiness_queries_results/05_result_repeat_purchase_rate.csv) 
 🐍 Python Result:[query_05_result_repeat_purchase_rate.csv](outputs/query_results/05_repeat_purchase_rate_result.csv)
+
 #### ✅ KPI 6: Least Selling Categories by State  
 🎯 Goal: Find underperforming categories in each region to help improve targeted marketing.  
 📄 SQL Query: [query_06_least_selling_category_by_state.sql](bussiness_queries_results/06_least_selling_category_by_state.sql)  
 📊 pgAdmin Result: [query_06_result_least_selling_category_by_state.csv](bussiness_queries_results/06_result_least_selling_category_by_state.csv)  
-🐍 Python Result:[query_06_result_least_selling_category_by_state.csv](outputs/query_results/06_least_selling_category_by_state_result.csv)  
+🐍 Python Result:[query_06_result_least_selling_category_by_state.csv](outputs/query_results/06_least_selling_category_by_state_result.csv)
+
 #### ✅ KPI 7: Customer Lifetime Value (CLTV)  
 🎯 Goal: Measure the total revenue brought in by each customer.  
 📄 SQL Query: [query_07_customer_lifetime_value.sql](bussiness_queries_results/07_customer_lifetime_value.sql)  
 📊 pgAdmin Result: [query_07_result_customer_lifetime_value.csv](bussiness_queries_results/07_result_customer_lifetime_value.csv) 
 🐍 Python Result: [query_07_result_customer_lifetime_value.csv](outputs/query_results/07_customer_lifetime_value_result.csv)
+
 #### ✅ KPI 8: Products Low in Stock  
 🎯 Goal: Detect products nearing stockout threshold to restock on time.  
 📄 SQL Query: [query_08_low_stock_products.sql](bussiness_queries_results/08_low_stock_products.sql)  
@@ -143,6 +148,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
 📄 SQL Query: [query_11_top_sellers.sql](bussiness_queries_results/11_top_sellers.sql)  
 📊 pgAdmin Result: [query_11_result_top_sellers.csv](bussiness_queries_results/11_result_top_sellers.csv)  
 🐍 Python Result: [query_11_result_top_sellers.csv](outputs/query_results/11_top_sellers_result.csv)
+
 #### ✅ KPI 12: Product Profit Margin Estimate  
 🎯 Goal: Evaluate profitability of products assuming weight as cost proxy.  
 📄 SQL Query: [query_12_product_profit_margin.sql](bussiness_queries_results/12_product_profit_margin.sql)  
@@ -172,6 +178,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
 📄 SQL Query: [query_16_top_customers_by_state.sql](bussiness_queries_results/16_top_customers_by_state.sql)  
 📊 pgAdmin Result:[query_16_result_top_customers_by_state.csv](bussiness_queries_results/16_result_top_customers_by_state.csv)  
 🐍 Python Result: [query_16_result_top_customers_by_state.csv](outputs/query_results/16_top_customers_by_state_result.csv)
+
 #### ✅ KPI 17: Revenue per Order by State  
 🎯 Goal: Identify which states have the highest and lowest average revenue per order.  
 📄 SQL Query: [query_17_avg_order_value_by_state.sql](bussiness_queries_results/17_avg_order_value_by_state.sql)  
@@ -213,7 +220,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
 - All dimension tables are connected to fact tables using foreign key constraints.
 - Below is the final ERD for the e-commerce database schema:
 
-![Entity Relationship Diagram](diagrams/ERD_E-Commerce.png)
+![Entity Relationship Diagram](diagrams/ERD_E-Commerce.png.png)
 
 ---
 
@@ -256,7 +263,7 @@ Click on the links below to view the SQL queries and their corresponding outputs
 
    --SQL manually via pgAdmin
 
-   --Notebook: run_sql_queries_and_export_results.ipynb
+   --Notebook: [run_sql_queries_and_export_results.ipynb](notebooks/run_sql_queries_and_export_results.ipynb)
 
 3. Check Results
    Output .csv files are saved in:
