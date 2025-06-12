@@ -63,7 +63,6 @@ Ecommerce_Sales_Insights_SQL/
 - Handled missing values, fixed data types.
 - Exported cleaned datasets to the `datasets/cleaned_data/` folder.
 
----
 
 ### 📊 Step 2: Exploratory Data Analysis (`EDA_analysis_visualizations.ipynb`)
 - Performed initial data exploration using `pandas` to understand distributions and missing values.
@@ -72,7 +71,6 @@ Ecommerce_Sales_Insights_SQL/
   - Count plots, bar plots
 - Insights gathered on product weight, price distribution, regional customer trends, and more.
 
----
 
 ### 🛠️ Step 3: PostgreSQL Database Setup
 - Defined schema using `Defining_the_Tables.sql`, including:
@@ -81,7 +79,6 @@ Ecommerce_Sales_Insights_SQL/
 - Created relationships using foreign keys to support star schema.
 - Used `load_cleaned_data.py` to insert cleaned data into PostgreSQL using SQLAlchemy.
 
----
 
 ### 📌 Step 4: Business Problem KPIs (20 Queries)
 Each business problem was solved using SQL and results were exported both from pgAdmin and Python.
@@ -210,7 +207,6 @@ Click on the links below to view the SQL queries and their corresponding outputs
 > - `bussiness_queries_result/` (SQL manual exports)  
 > - `outputs/query_results/` (Python automated exports)
 
----
 
 ### 🐍 Step 5: Running Queries with Python (`run_sql_queries_and_export_results.ipynb`)
 - Connected to PostgreSQL using SQLAlchemy.
@@ -218,7 +214,6 @@ Click on the links below to view the SQL queries and their corresponding outputs
 - Executed the queries and saved results as `.csv` into `outputs/query_results/`.
 - Ensured consistency between SQL-generated and Python-generated results.
 
----
 
 ### 🧩 Step 6: Entity Relationship Diagram (ERD)
 - Designed a star schema for analytical querying.
