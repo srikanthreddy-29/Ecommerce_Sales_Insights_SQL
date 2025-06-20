@@ -279,7 +279,7 @@ Output .csv files will be saved in:
 
 Interested in collaborating or have questions? Let’s connect!  
 
-🔗 **LinkedIn**: [Srikanthreddy Maddireddy](www.linkedin.com/in/srikanthreddy-maddireddy)  
+🔗 **LinkedIn**: [Srikanthreddy Maddireddy](https://www.linkedin.com/in/srikanthreddy-maddireddy/)  
 💻 **GitHub**: [srikanthreddy-29](https://github.com/srikanthreddy-29)
 
 
